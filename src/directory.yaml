@@ -1,0 +1,5 @@
+openapi: 3.0.0
+info:
+  title: Directory
+  description: "The Directory API is used to get information an organisation and its members"
+  version: 0.1.0
