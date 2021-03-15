@@ -1,0 +1,16 @@
+openapi: 3.0.0
+info:
+  title: Payroll
+  description: "The Payroll API is used to get payroll information for each person."
+  version: 0.1.0
+
+servers:
+  - url: https://api.peoplestack.app
+
+paths:
+  /payroll:
+    get:
+      summary: Gets a list of the payroll information for each person in the organisation.
+      responses:
+        '200':
+          description: A JSON array of payroll information.
